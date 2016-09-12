@@ -9,8 +9,53 @@ and open the template in the editor.
         <title>Hem | HJBox</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     </head>
     <body>
-        <div>TODO write content</div>
+        <header>
+            <div class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="" class="navbar-brand">Logga</a>
+                        <button class="navbar-toggle" data-toggle="collapse" data-target="#content-nav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="content-nav">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="">Startsida</a></li>
+                            <li><a href="">Placeholder</a></li>
+                            <li><a href="">Placeholder</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="jumbotron">
+                    <h1>Välkommen!</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-xs-6">
+                    <h2>Titel av text</h2>
+                    <h3>bla bla bla bla bla bla bla bla bla </h3>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-6">
+                    <img src="img/testbild.jpg" alt="testbil" width="350" height="350" class="img-responsive img-thumbnail"/>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="thumbnail">
+                        <h1>Kontakta oss</h1>
+                        <p>Här kan ni kontakta oss för mer info om våra tjänster</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     </body>
 </html>
