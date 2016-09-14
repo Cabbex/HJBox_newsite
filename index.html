@@ -13,7 +13,7 @@ and open the template in the editor.
     </head>
     <body>
         <header>
-            <div class="navbar navbar-default">
+            <div class="navbar navbar-default visible-xs">
                 <div class="container">
                     <div class="navbar-header">
                         <a href="" class="navbar-brand">Logga</a>
@@ -26,7 +26,7 @@ and open the template in the editor.
                     <div class="collapse navbar-collapse" id="content-nav">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="">Startsida</a></li>
-                            <li><a href="">Placeholder</a></li>
+                            <li><a href="#kontaktpos">Kontakt</a></li>
                             <li><a href="">Placeholder</a></li>
                         </ul>
                     </div>
@@ -36,21 +36,37 @@ and open the template in the editor.
         <div class="container-fluid">
             <div class="row">
                 <div class="jumbotron">
-                    <h1>Välkommen!</h1>
+                    <h1>Välkommen!<small> - Till HJBox.se</small></h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-xs-6">
-                    <h2>Titel av text</h2>
-                    <h3>bla bla bla bla bla bla bla bla bla </h3>
+                <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+                    <div class="well">
+                        <h2 >Om oss</h2>
+                        <p>Vi är ett företag som håller till i Grimslöv. Vi bygger och säljer hundboxar och verkstadsboxar och vi tar också emot specialbeställningar allt efter kundens behov och sätter ett rimligt pris.</p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-xs-6">
-                    <img src="img/testbild.jpg" alt="testbil" width="350" height="350" class="img-responsive img-thumbnail"/>
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
                     <div class="thumbnail">
-                        <h1>Kontakta oss</h1>
-                        <p>Här kan ni kontakta oss för mer info om våra tjänster</p>
+                        <img src="img/testbild.jpg" alt="Bild på bil" class="img-responsive"/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="well" id="kontaktpos">
+                        <h1 class="text-center">Kontakta oss</h1>
+                        <p class="text-center">Här kan ni kontakta oss för mer info om våra tjänster <br /> 
+                            Ring här för beställning <span class="glyphicon glyphicon-earphone"></span><strong>0705374553</strong> eller <span class="glyphicon glyphicon-earphone"></span><strong>0725341322</strong></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="well">
+                        <h1 class="text-center">Om våra boxar</h1>
+                        <p class="text-center">
+                            I varje hundbox ingår en omvandlare, en fläkt och ledbelysning i alla fack och i en verkstadsbox ingår omvandlare och ledbelysning. <br />
+                            Vi lämnar 2års garanti på boxar ni köper.
+                        </p>
                     </div>
                 </div>
             </div>
