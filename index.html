@@ -111,7 +111,7 @@
                         <h2>Hur mycket kostar det?</h2>
                         <p>Här kan ni kolla på ett ungefär hur mycket det kommer att kosta att beställa från oss.
                         Dock vill vi gärna att ni ringer om ni vill ha köpa av oss.</p>
-                        <form action="" onsubmit="funktion()">
+                        <form action="" id="kostnadsform" onsubmit="collectValues()">
                             <div class="form-group">
                                 <label for="långinput">Långsidans längd i mm:</label>
                                 <input id="långinput" type="number" class="form-control" placeholder="Långsidans längd"/>
@@ -133,5 +133,6 @@
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
         <script src="bower_components/bootstrap/js/carousel.js"></script>
+        <script src="js/Form.js"></script>
     </body>
 </html>
